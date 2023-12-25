@@ -27,6 +27,7 @@ const insertUser = async (userData, hashPassword) => {
         password: hashPassword,
         role: userData.role,
         phoneNumber: userData.phoneNumber,
+        DOB: userData.dob,
       },
     });
 
